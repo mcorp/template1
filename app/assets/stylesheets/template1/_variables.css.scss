@@ -1,0 +1,20 @@
+// Full list with all Bootstrap avaiable variables in:
+// http://getbootstrap.com/customize/#less-variables
+
+// Remember to change @ to $ in variable names, e.g. @body-bg => $body-bg
+
+$navbar-default-bg: #fff; // should be $body-bg
+$navbar-height: 100px;
+
+// table stuff
+
+$table-border-color: #fff; // should be $body-bg
+$table-cell-padding: 10px;
+
+// OUR custom vars
+
+$navbar-max-image-height: 70px;
+
+// Load all twbs vars to make them avaiable through the rake assets:precompile
+
+@import 'bootstrap/variables';

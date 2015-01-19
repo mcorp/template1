@@ -1,0 +1,96 @@
+@import 'variables';
+
+// page wide settings
+
+body {
+  background-image: url(asset-path("template1/bg.png"));
+}
+
+// navbar image adjustment
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand,
+.navbar-default .navbar-nav > li > a
+{
+  $navbar-image-padding-top: ($navbar-height - $navbar-max-image-height)/2;
+  padding: $navbar-image-padding-top 7px;
+}
+
+// settings for the main page container of the app
+
+.main.container {
+  text-align: left;
+  background: #ffffff;
+  border: 1px solid #efefef;
+  box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.2);
+}
+
+// table stuff
+
+.table {
+  thead {
+    tr {
+      background-color: $gray-lighter;
+
+      th {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .selection-box {
+    $width: 2.4em;
+    width: $width;
+    min-width: $width;
+    max-width: $width;
+  }
+
+  .form-actions {
+    text-align: center;
+    width: 110px;
+
+    .form-action {
+      padding-right: 5px;
+      padding-left: 5px;
+      color: darken($gray-lighter, 25%);
+      font-size: 1.15em;
+    }
+
+    .form-action:hover {
+      text-decoration: none;
+    }
+
+    .form-action.action-default:hover {
+      color: $btn-default-bg;
+    }
+    .form-action.action-primary:hover {
+      color: $btn-primary-bg;
+    }
+    .form-action.action-success:hover {
+      color: $btn-success-bg;
+    }
+    .form-action.action-info:hover {
+      color: $btn-info-bg;
+    }
+    .form-action.action-warning:hover {
+      color: $btn-warning-bg;
+    }
+    .form-action.action-danger:hover {
+      color: $btn-danger-bg;
+    }
+  }
+}
+
+// Typography
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: $gray-light;
+}
+
+// Sticky footer
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $navbar-default-bg;
+}
