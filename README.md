@@ -1,4 +1,4 @@
-# template1 [![Build Status](https://travis-ci.org/mcorp/template1.svg?branch=master)](https://travis-ci.org/mcorp/template1)[![Dependency Status](https://gemnasium.com/mcorp/template1.svg)](https://gemnasium.com/mcorp/template1)
+# template1 [![Build Status](https://travis-ci.org/mcorp/template1.svg?branch=master)](https://travis-ci.org/mcorp/template1) [![Dependency Status](https://gemnasium.com/mcorp/template1.svg)](https://gemnasium.com/mcorp/template1) [![Code Climate](https://codeclimate.com/github/mcorp/template1/badges/gpa.svg)](https://codeclimate.com/github/mcorp/template1)
 
 How to use from repository
 
