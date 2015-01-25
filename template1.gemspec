@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", 'MIT-LICENSE', 'Rakefile', 'README.md']
 
   s.add_dependency 'rails', '~> 4.2.0'
+  s.add_dependency 'font-awesome-rails', '~> 4.3.0'
 
   s.add_development_dependency 'rspec-rails', '~> 3.1.0'
   s.add_development_dependency 'capybara', '~> 2.4.4'

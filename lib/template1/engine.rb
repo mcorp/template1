@@ -1,3 +1,5 @@
+require 'font-awesome-rails/engine'
+
 module Template1
   class Engine < ::Rails::Engine
     engine_name 'template1'
